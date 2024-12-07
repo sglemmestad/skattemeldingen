@@ -240,3 +240,6 @@ def get_access_token(**kwargs) -> dict:
 
 if __name__ == "__main__":
     get_access_token() #Test fnr: 14888999060
+
+def main_relay():
+    return get_access_token()
